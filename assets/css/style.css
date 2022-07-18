@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+nav .navbar {
+    background-color: black;
+}
+
+.navbar-logo i {
+    color: white;
+    margin-right: 40px;
+}
+
+.nav-item a {
+    color: rgb(240, 234, 234);
+    font-size: 20px;
+}
+
+.carousel {
+    margin-bottom: 50px;
+}
+
+.carousel-item img{
+    height: 700px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    height: 21.5rem;
+}
+
+.menu {
+    margin-top: 70px;
+}
+
+.menu .fw-normal {
+    margin-bottom: 0%;
+}
+
+.menu .d-block {
+    border: 1px solid black;
+    width: 80px;
+    display: inline-block !important
+}
+
+div.container .row img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.menu .col-md-4 {
+    text-align: center;
+}
+
+.menu .col-md-3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+hr.divider {
+    margin: 6rem 0;
+}
+
+.menu .feature .col-md-7 {
+    margin-top: 10rem;
+}
+
+.menu .feature .col-md-5 img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 6rem;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 0%;
+}
+
